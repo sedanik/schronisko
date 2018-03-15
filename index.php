@@ -12,7 +12,7 @@
 
 <body>
   <div class="wrapper">
-    <div class="header"><header>
+    <div class="heading"><header>
       <p>Tu bendzie super zdjencie</p>
     </header></div>
 
@@ -30,10 +30,10 @@ include('lista.html');
      </div>
       <div class="content">
 <?php
-include('sterowanie.php');      
+include('sterowanie.php');
 ?>
      </div>
-      <div class="footer">
+      <div class="stopka">
         <h3>Dominik Sosnowski & Dawid Nikolajski</h3>
       </div>
     </div>

@@ -4,7 +4,7 @@ error_reporting(E_ALL ^ E_NOTICE);
         echo'<div>Witaj w schronisku.</div>';
  }else{
       if($_GET['k'] == 1){}
-      else if($_GET['k'] == 2){
+      else if($_GET['k'] == 2){}
       else if($_GET['k'] == 3){}
       else if($_GET['k'] == 4){}
       else if($_GET['k'] == 5){}

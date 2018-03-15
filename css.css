@@ -1,8 +1,59 @@
-*{margin: 0; padding: 0; overflow: hidden;}
-.wrapper{width: 100%; height: 100%; font-family: Rammetto One}
-.menu{background-color: black; position: fixed; width: 100%;}
-.menu a{text-decoration: none; font-size: 1.5em; color: white; text-align: center; float: left; width: 25%; display: block; position: relative; padding: 15px 0}
-.menu a:hover{background-color: white; color: black;}
-.left{float:left;}
-.content{float: left;}
-.footer{clear: both;}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  font-family: Rammetto One;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 15% auto auto auto;
+  grid-template-areas: "heading heading heading heading" "menu menu menu menu" "left content content content" "stopka stopka stopka stopka"
+}
+
+.menu {
+  background-color: black;
+  position: fixed;
+  top: 15%;
+  width: 100%;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  float: left;
+  width: 25%;
+  display: block;
+  position: relative;
+  padding: 15px 0
+}
+
+.menu a:hover {
+  background-color: white;
+  color: black;
+}
+
+.heading {
+  grid-area: heading
+}
+
+.menu {
+  grid-area: menu
+}
+
+.left {
+  grid-area: left;
+}
+
+.content {
+  grid-area: content
+}
+
+.stopka {
+  grid-area: stopka;
+  text-align: center;
+}
