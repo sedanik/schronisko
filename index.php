@@ -24,11 +24,15 @@
       <a href="">Menu4</a>
     </div>
       <div class="left">
-<?php include ('lista.html')?>
-      </div>
+<?php
+include('lista.html');
+?>
+     </div>
       <div class="content">
-        <p>tu bendzie sie pojawialo</p>
-      </div>
+<?php
+include('sterowanie.php');      
+?>
+     </div>
       <div class="footer">
         <h3>Dominik Sosnowski & Dawid Nikolajski</h3>
       </div>
