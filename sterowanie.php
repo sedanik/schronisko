@@ -3,7 +3,7 @@ error_reporting(E_ALL ^ E_NOTICE);
     if(!isset($_GET['k'])){
         echo'<div>Witaj w schronisku.</div>';
  }else{
-      if($_GET['k'] == 1){}
+      if($_GET['k'] == 1){include('content1.html');}
       else if($_GET['k'] == 2){}
       else if($_GET['k'] == 3){}
       else if($_GET['k'] == 4){}

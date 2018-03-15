@@ -13,7 +13,7 @@
 <body>
   <div class="wrapper">
     <div class="heading"><header>
-      <p>Tu bendzie super zdjencie</p>
+      <h2>Tu bendzie super zdjencie</h2>
     </header></div>
 
 
