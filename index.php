@@ -23,8 +23,14 @@
       <a href="">Menu3</a>
       <a href="">Menu4</a>
     </div>
-      <div id="left">
+      <div class="left">
 <?php include ('lista.html')?>
+      </div>
+      <div class="content">
+        <p>tu bendzie sie pojawialo</p>
+      </div>
+      <div class="footer">
+        <h3>Dominik Sosnowski & Dawid Nikolajski</h3>
       </div>
     </div>
 </body>

@@ -3,3 +3,6 @@
 .menu{background-color: black; position: fixed; width: 100%;}
 .menu a{text-decoration: none; font-size: 1.5em; color: white; text-align: center; float: left; width: 25%; display: block; position: relative; padding: 15px 0}
 .menu a:hover{background-color: white; color: black;}
+.left{float:left;}
+.content{float: left;}
+.footer{clear: both;}
