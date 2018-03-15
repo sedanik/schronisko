@@ -1,5 +1,0 @@
-*{margin: 0; padding: 0; overflow: hidden;}
-.wrapper{width: 100%; height: 100%}
-.menu{position: fixed; background-color: black; width: 100%; }
-.menu a{text-decoration: none; font-size: 1.5em; color: white;text-align: center; float: left; width: 25%;}
-.menu a:hover{background-color: white; color: black}
