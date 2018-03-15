@@ -12,7 +12,7 @@
 
 <body>
   <div class="wrapper">
-    <div class="header"><header>
+    <div class="heading"><header>
       <p>Tu bendzie super zdjencie</p>
     </header></div>
 
@@ -29,8 +29,9 @@
       <div class="content">
         <p>tu bendzie sie pojawialo</p>
       </div>
-      <div class="footer">
+      <div class="stopka">
         <h3>Dominik Sosnowski & Dawid Nikolajski</h3>
+
       </div>
     </div>
 </body>
